@@ -1,0 +1,31 @@
+Node: Lokacija, ID: Banja Luka
+Node: Lokacija, ID: Krupa na Vrbasu
+Node: Lokacija, ID: Mrkonjic Grad
+Node: Put, ID: Vidovdanska, Duzina: 10, MaksBrzina: 3, MaksVozila: 100
+Node: Put, ID: Jevrejska, Duzina: 15, MaksBrzina: 2, MaksVozila: 100
+Node: Put, ID: Ostroska, Duzina: 3, MaksBrzina: 2, MaksVozila: 100
+Node: Raskrsnica, ID: Kanjon Raskrsnica, MaksVozila: 2
+Node: Put, ID: Trebinjska, Duzina: 25, MaksBrzina: 4, MaksVozila: 100
+Node: Put, ID: Vidovdanska Kraj, Duzina: 0, MaksBrzina: 3, MaksVozila: 100
+Node: Put, ID: Jevrejska Kraj, Duzina: 0, MaksBrzina: 2, MaksVozila: 100
+Node: Put, ID: Ostroska Kraj, Duzina: 0, MaksBrzina: 2, MaksVozila: 100
+Node: Put, ID: Trebinjska Kraj, Duzina: 0, MaksBrzina: 4, MaksVozila: 100
+Node: Put, ID: Randomska Kraj, Duzina: 0, MaksBrzina: 10, MaksVozila: 100
+Node: Put, ID: Randomska, Duzina: 50, MaksBrzina: 10, MaksVozila: 100
+Edge: Banja Luka, Vidovdanska, Dist: 0
+Edge: Krupa na Vrbasu, Ostroska, Dist: 0
+Edge: Mrkonjic Grad, Randomska, Dist: 0
+Edge: Vidovdanska, Vidovdanska Kraj, Dist: 10
+Edge: Jevrejska, Jevrejska Kraj, Dist: 15
+Edge: Ostroska, Ostroska Kraj, Dist: 3
+Edge: Kanjon Raskrsnica, Jevrejska, Dist: 0
+Edge: Kanjon Raskrsnica, Trebinjska, Dist: 0
+Edge: Trebinjska, Trebinjska Kraj, Dist: 25
+Edge: Vidovdanska Kraj, Kanjon Raskrsnica, Dist: 0
+Edge: Jevrejska Kraj, Krupa na Vrbasu, Dist: 0
+Edge: Ostroska Kraj, Mrkonjic Grad, Dist: 0
+Edge: Trebinjska Kraj, Mrkonjic Grad, Dist: 0
+Edge: Randomska Kraj, Banja Luka, Dist: 0
+Edge: Randomska, Randomska Kraj, Dist: 50
+Connection: Kanjon Raskrsnica, Vidovdanska Kraj, Jevrejska, true, Dist: 5, AvgSpeed: 50
+Connection: Kanjon Raskrsnica, Vidovdanska Kraj, Trebinjska, true, Dist: 4, AvgSpeed: 2500
